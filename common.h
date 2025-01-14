@@ -1,4 +1,4 @@
-#define MAX_STUDENTS	10
+#define MAX_STUDENTS	10
 
 enum {
 	DATA_SAVE_OK,
