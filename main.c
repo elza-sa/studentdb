@@ -42,6 +42,7 @@ int main() {
 	data_output( c, s );
 
 	printf("Do you want to save the data(1/0)?\n");
+
 	scanf("%d", &yn);
 	if ( yn == 1 ) {
 		printf("Saving data to %s ...\n", file);
@@ -49,6 +50,7 @@ int main() {
 		if ( err ) {
 			printf("Error saving data: %d(%m)\n", err);
 		}
+
 	}
 
 	free(s);
